@@ -1,4 +1,4 @@
-require_relative 'person_class'
+require_relative 'person_class.rb'
 
 class Student < Person
   attr_reader :classroom
