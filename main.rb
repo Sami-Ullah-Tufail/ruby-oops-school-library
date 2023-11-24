@@ -46,3 +46,4 @@ def main
     process_option(choice, app)
   end
 end
+main
