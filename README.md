@@ -1,6 +1,6 @@
 
 # 📗 Table of Contents
-- [OOP School Library: Ometman](#oop-school-library-ometman)
+- [OOP School Library: Ometman](#oop-school-library)
 - [📗 Table of Contents](#-table-of-contents)
 - [📖 OOP School Library Project ](#-oop-school-library-project-)
   - [🛠 Built With ](#-built-with-)
