@@ -23,7 +23,8 @@ class App
       if person.is_a?(Student)
         puts "[Student] Name: #{person.name}, ID: #{person.id}, Age: #{person.age}"
       elsif person.is_a?(Teacher)
-        puts "[Teacher] Name: #{person.name}, ID: #{person.id}, Age: #{person.age}"
+        puts "[Teacher] Name: #{person.name}, specialization: person.specialization ,
+        ID: #{person.id}, Age: #{person.age}"
       end
     end
   end
