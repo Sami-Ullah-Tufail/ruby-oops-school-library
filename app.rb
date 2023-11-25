@@ -23,7 +23,7 @@ class App
       if person.is_a?(Student)
         puts "[Student] Name: #{person.name}, ID: #{person.id}, Age: #{person.age}"
       elsif person.is_a?(Teacher)
-        puts "[Teacher] Name: #{person.name}, specialization: person.specialization ,
+        puts "[Teacher] Name: #{person.name}, specialization: #{person.specialization} ,
         ID: #{person.id}, Age: #{person.age}"
       end
     end
@@ -42,7 +42,7 @@ class App
     if person_type == 2
       print 'Specialization: '
       specialization = gets.chomp
-      @people << Teacher.new(age, name, specialization: specialization)
+      @people << Teacher.new(age, specialization, name)
     else
       print 'Has parent permission? [Y/N]: '
       parent_permission = gets.chomp.downcase == 'y'
